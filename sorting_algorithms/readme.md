@@ -23,7 +23,8 @@
 
   It doesn't matter when we are sorting primitives.
 
-  eg. [{name:a, number:2}, {name:b, number:4}, {name:c, number:2}]
+  eg. 
+  [{name:a, number:2}, {name:b, number:4}, {name:c, number:2}]
 
   unstable sort => [{name:c, number:2}, {name:a, number:2}, {name:b, number:4}]
 
