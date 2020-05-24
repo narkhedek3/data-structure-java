@@ -11,6 +11,12 @@ public class Test {
     // How to assign value and retrive values from array..!
     for(int i = 0; i < intArray.length; i++) {
       intArray[i] = (i+1) * 10;
+      // how to calculate address of i'th element
+      // (x + i * y)
+      // where,
+      // x = start address of array
+      // i = index
+      // y = size of element of array
       System.out.println(intArray[i]);
     }
 
