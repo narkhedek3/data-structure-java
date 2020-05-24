@@ -23,13 +23,14 @@
 
   It doesn't matter when we are sorting primitives.
 
-  eg. 
-  [{name:a, number:2}, {name:b, number:4}, {name:c, number:2}]
+  eg.
+  ```
+  original array => [{name:a, number:2}, {name:b, number:4}, {name:c, number:2}]
 
   unstable sort => [{name:c, number:2}, {name:a, number:2}, {name:b, number:4}]
 
   stable sort => [{name:a, number:2}, {name:c, number:2}, {name:b, number:4}]
-
+  ```
 # Selection sort
 
   time complexity O(n^2) quadratic
