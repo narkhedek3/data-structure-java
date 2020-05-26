@@ -43,4 +43,6 @@
   
   Selection sort is unstable sort[relative order is not maintained].
 
+# Inserrion Sort
 
+  time complexity O(n^2) quadratic.
