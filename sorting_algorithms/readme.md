@@ -35,7 +35,7 @@
 
   time complexity O(n^2) quadratic
 
-  In Selection sort after every iteration on element from array gets correct position.<br/>
+  In Selection sort after every iteration on element from array gets correct position.
   
   In every iteration only one comparision is done to decide correct position of element.
 
