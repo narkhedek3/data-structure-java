@@ -46,3 +46,11 @@
 # Insertion Sort
 
   time complexity O(n^2) quadratic.
+
+# Shell Sort 
+
+  It is optimization of insertion sort.
+
+  time complexity O(n^2) quadratic. But in some cases it will work linearly.
+
+  After every iteration partially sorted array is crated and normally half of the array length iterations are required to sort entire array.
