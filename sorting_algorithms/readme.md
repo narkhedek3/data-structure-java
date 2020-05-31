@@ -54,3 +54,47 @@
   time complexity O(n^2) quadratic. But in some cases it will work linearly.
 
   After every iteration partially sorted array is crated and normally half of the array length iterations are required to sort entire array.
+
+# Recursion 
+
+  Calling a function from it's own body again and again with some breaking condition[break case] is known as **Recursion**.
+
+  eg. calculating factorial of number. 
+  
+  logic
+  ```
+  2! = 2 * 1! => factorial(2) = 2 * factorial(1) 
+  3! = 3 * 2! => factorial(3) = 3 * factorial(2) 
+  4! = 4 * 3! => factorial(4) = 4 * factorial(3) 
+  ```
+  pseudo code
+  ```
+  factorial(num) {
+    // termination codition
+    if(num <= 0) {
+      return 1;
+    }
+
+    // recursion to get factorial
+    return num * factorial(num -1 );
+  }
+  ```
+
+# Merge Sort
+
+  time complexity O(nlogn) - base 2
+
+  Recursive sort.
+
+  It consists of two steps : splitting and merging [Divide and Conquer].
+
+  Splitting is logical [No new arrays are created].
+
+  Merging is process of adding two logically splitted array values into new temporary array.
+
+  Stable algorithm, Not an in-place algorithm.
+
+
+
+
+
